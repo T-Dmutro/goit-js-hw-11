@@ -36,11 +36,9 @@ function onSearch(e) {
 
   isShown = 0;
   fetchGallery();
-  
 }
 
 function onLoadMore() {
-  newsApiService.incrementPage();
   fetchGallery();
 }
 
